@@ -10,3 +10,7 @@ async def root():
 @app.get("/teste1")
 async def teste1():
     return {"message": "Hello World from teste1"}
+
+@app.get("/teste2")
+async def teste1():
+    return {"message": "Endpoint teste2"}
