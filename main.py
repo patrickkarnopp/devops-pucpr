@@ -13,4 +13,4 @@ async def teste1():
 
 @app.get("/teste2")
 async def teste1():
-    return {"message": "Segundo teste deu certo!"}
+    return {"message": "Endpoint teste2"}
