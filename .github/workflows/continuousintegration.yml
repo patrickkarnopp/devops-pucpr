@@ -55,4 +55,4 @@ jobs:
       - name: Run tests
         run: |
           pip install pytest pytest-cov pytest-asyncio
-          pytest test/test.py --doctest-modules --junitxml-junit/test-results.xml --cov=.
+          pytest test/test.py --doctest-modules --junitxml=junit/test-results.xml --cov=.
