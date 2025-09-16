@@ -6,7 +6,7 @@ app = FastAPI()
 
 
 class Estudante(BaseModel):
-    nome: str
+    name: str
     curso: str
     ativo: bool
 
